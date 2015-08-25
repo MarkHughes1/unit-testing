@@ -13,7 +13,9 @@ namespace UnitTestProject1
         }
         public void checkadd()
         {
-         
+            var testadd = new myCode.code();
+            var result = testadd.Add(10.0, 10.0);
+            Assert.Equals(20.0, result);
         }
     }
 }
